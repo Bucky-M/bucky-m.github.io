@@ -196,7 +196,16 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							© Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script>
+							<p>
+								All Rights Reserved,
+								<span id="currentYear"></span>
+								<a href="bucky-m.github.io">Buck Merritt/a>.
+							  </p>
+							  
+							  <script>
+								let date = new Date().getFullYear();
+								document.getElementById("currentYear").textContent = date;
+							  </script>
 						</ul>
 					</footer>
 				</div>
